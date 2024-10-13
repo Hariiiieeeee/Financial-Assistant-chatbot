@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    background: #fdf3ff;
+}
+
+.wrapper{
+    margin: auto;
+    width: 550px;
+    max-width: 100%;
+}
+
+.chatbot{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ba15e4;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    background: #ffff;
+}
+
+.chatbot header{
+    /* margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #ba15e4; */
+
+    background: #ba15e4;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.chatbot header h1{
+    color: #fdf3ff;
+}
+
+.chatbot .chatbox{
+    height: 520px;
+    overflow-y: auto;
+    padding: 15px 20px 70px;
+}
+
+.chatbox .chat{
+    display: flex;
+}
+
+.chatbot .chat p{
+    color: #480055;
+    font-size: 1.2rem;
+    padding: 12px 16px;
+}
+
+.chatbot .outgoing p{
+    background: #f3ccff;
+    border-radius: 10px 10px 0 10px;
+}
+
+.chatbot .incoming p{
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px 10px 10px 0px;
+}
+
+.chatbot .outgoing{
+    margin: 20px 0px;
+    justify-content: flex-end;
+}
+
+.chatbot .incoming span{
+    height: 32px;
+    width: 32px;
+    color: #480055;
+    align-self: flex-end;
+    background: #fdf3ff;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #480055;
+    border-radius: 5px;
+    margin: 0 10px 7px 0;
+}
+
+.chatbot .chat-input{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    padding: 5px 30px;
+    border-top: 1px solid #ba15e4;
+}
+
+.chat-input textarea{
+    height: 60px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    resize: none;
+    padding: 16px 15px 16px 0;
+}
+
+.chat-input span{
+    color: #480055;
+    height: 60px;
+    line-height: 60px;
+    align-self: flex-end;
+    font-size: 1.7rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.chat-input textarea:valid ~ span{
+    visibility: visible;
+}

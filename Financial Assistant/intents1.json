@@ -1,0 +1,160 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Good morning", "Good afternoon", "Good evening", "Hey"],
+        "responses": ["Hello! How can I assist you with your finances today?", "Hi! How can I help you manage your money?", "Hello! What financial questions can I help you with?"]
+      },
+      {
+        "tag": "investment_advice",
+        "patterns": ["What are the best investments?", "Where should I invest my money?", "Best investment options?", "Tell me about investment opportunities"],
+        "responses": ["The best investment depends on your financial goals. Some options include stocks, bonds, mutual funds, or real estate. Do you have a risk preference?", "You can consider stocks, bonds, mutual funds, or even real estate. It all depends on your financial goals and risk tolerance."]
+      },
+      {
+        "tag": "budgeting",
+        "patterns": ["How do I create a budget?", "Help me with budgeting", "What is the best way to budget?", "How to plan a budget?"],
+        "responses": ["To create a budget, list your income and expenses, then allocate a portion of your income to savings and necessities. Do you need help setting one up?", "Start by tracking your income and expenses. Set aside money for savings and stick to it. Need more tips on specific categories?"]
+      },
+      {
+        "tag": "retirement_planning",
+        "patterns": ["How much should I save for retirement?", "When should I start saving for retirement?", "Help me plan for retirement"],
+        "responses": ["It's never too early to start saving for retirement. A general rule is to save 15% of your income. Let me know if you'd like to explore investment options for retirement.", "You should start saving for retirement as early as possible. The amount depends on your lifestyle goals, but aiming for 15-20% of your income is a good start."]
+      },
+      {
+        "tag": "tax_saving",
+        "patterns": ["How can I save on taxes?", "What are the best tax-saving options?", "Help me with tax planning"],
+        "responses": ["You can save on taxes through retirement accounts, health savings accounts, or by claiming deductions. Do you need advice on tax-efficient investments?", "Consider using tax-advantaged accounts like IRAs, HSAs, or claiming deductions on education and mortgage interest."]
+      },
+      {
+        "tag": "loan_advice",
+        "patterns": ["Should I take a loan?", "What are the best loan options?", "How do I manage loans?", "Is it good to take a personal loan?"],
+        "responses": ["The decision to take a loan depends on your financial situation. Do you want advice on home loans, personal loans, or credit card debt?", "It's important to compare interest rates and repayment terms. I can help you assess if a loan is a good option for your needs."]
+      },
+      {
+        "tag": "credit_score",
+        "patterns": ["How can I improve my credit score?", "What affects my credit score?", "Help me improve my credit score"],
+        "responses": ["To improve your credit score, pay your bills on time, reduce credit card balances, and avoid opening too many accounts. Need tips on managing debt?", "Your credit score is influenced by timely payments, credit usage, and the length of your credit history. Would you like help in managing your debts?"]
+      },
+      {
+        "tag": "financial_goals",
+        "patterns": ["How should I set financial goals?", "Help me set financial goals", "How do I prioritize financial goals?"],
+        "responses": ["Start by defining short, medium, and long-term goals. For example, saving for a house, a vacation, or retirement. Would you like help prioritizing them?", "Setting clear financial goals helps create a roadmap for your finances. Do you need help with setting savings targets for your goals?"]
+      },
+      {
+        "tag": "emergency_fund",
+        "patterns": ["How much should I save in an emergency fund?", "What is an emergency fund?", "Why do I need an emergency fund?"],
+        "responses": ["An emergency fund should cover 3 to 6 months of your living expenses. It's essential to have this buffer in case of unexpected events like job loss or medical emergencies.", "An emergency fund helps protect you from unexpected expenses. I recommend saving enough to cover 3 to 6 months of expenses."]
+      },
+      {
+        "tag": "insurance_advice",
+        "patterns": ["What type of insurance should I get?", "Do I need life insurance?", "What is the best insurance policy?", "Should I get health insurance?", "Help me choose an insurance policy"],
+        "responses": ["Life, health, and auto insurance are essential to protect yourself and your family. Would you like to know more about a specific type of insurance?", "You should consider getting life, health, and property insurance. Need help choosing a policy that fits your needs?", "It's crucial to have health, life, and auto insurance to manage financial risks. Would you like to discuss policies?"]
+      },
+      {
+        "tag": "health_insurance",
+        "patterns": ["What is health insurance?", "How does health insurance work?", "Do I need health insurance?"],
+        "responses": ["Health insurance helps cover medical expenses like doctor visits and hospital stays. It's essential to protect against unexpected medical bills.", "Health insurance is critical to manage medical expenses. Would you like help finding a suitable health plan?"]
+      },
+      {
+        "tag": "life_insurance",
+        "patterns": ["What is life insurance?", "Do I need life insurance?", "What are the types of life insurance?"],
+        "responses": ["Life insurance provides financial support to your family in the event of your death. Would you like to know more about term and whole life insurance options?", "Life insurance is crucial to protect your loved ones. Term insurance is a good starting point. Do you want help exploring your options?"]
+      },
+      {
+        "tag": "auto_insurance",
+        "patterns": ["What is auto insurance?", "How do I choose auto insurance?", "Do I need car insurance?"],
+        "responses": ["Auto insurance covers damage to your car and liability for any accidents. It's required in most places. Would you like help comparing policies?", "Auto insurance helps cover damages or injuries in case of accidents. Need help selecting a policy?"]
+      },
+      {
+        "tag": "disability_insurance",
+        "patterns": ["What is disability insurance?", "Do I need disability insurance?", "How does disability insurance work?"],
+        "responses": ["Disability insurance provides income if you're unable to work due to illness or injury. It's important for protecting your income. Would you like to know more?", "Disability insurance ensures you have a source of income if you become disabled. Let me know if you want help choosing a policy."]
+      },
+      {
+        "tag": "home_insurance",
+        "patterns": ["What is home insurance?", "Do I need home insurance?", "What does home insurance cover?"],
+        "responses": ["Home insurance covers damage to your property from risks like fire, theft, or natural disasters. Would you like help choosing a policy?", "Home insurance protects your property and belongings. Would you like to explore options for coverage?"]
+      },
+      {
+        "tag": "savings_plan",
+        "patterns": ["How can I save money?", "What is a good savings plan?", "Help me save more money"],
+        "responses": ["Start by setting specific savings goals and automating your savings. You can save for short-term and long-term goals. Would you like help creating a plan?", "A good savings plan includes an emergency fund, retirement savings, and short-term goals. Would you like tips on how to prioritize them?"]
+      },
+      {
+        "tag": "investment_risk",
+        "patterns": ["What is my risk tolerance?", "How do I assess investment risk?", "How much risk should I take when investing?"],
+        "responses": ["Your risk tolerance depends on your financial goals, age, and investment horizon. Are you looking for low, moderate, or high-risk investments?", "We can assess your risk tolerance by evaluating your financial goals and time frame. How much risk are you willing to take for potential higher returns?"]
+      },
+      {
+        "tag": "financial_advisor",
+        "patterns": ["Do I need a financial advisor?", "Should I hire a financial advisor?", "What does a financial advisor do?"],
+        "responses": ["A financial advisor can help with investment strategies, tax planning, and financial goal setting. Would you like more details on how they can assist you?", "A financial advisor provides guidance on investments, retirement, and managing your overall financial health. Do you need help finding one?"]
+      },
+      {
+        "tag": "retirement_accounts",
+        "patterns": ["What is an IRA?", "Tell me about retirement accounts", "What is a 401(k)?", "Which retirement account should I use?"],
+        "responses": ["An IRA and 401(k) are tax-advantaged accounts that help you save for retirement. Would you like help choosing the best option for you?", "Both IRA and 401(k) accounts allow you to save for retirement with tax benefits. I can help you understand the differences and choose one."]
+      },
+      {
+        "tag": "pension",
+        "patterns": ["What is a pension?", "How does a pension work?", "Do I need a pension plan?"],
+        "responses": ["A pension provides income after retirement, usually from your employer. It's essential to plan for your post-retirement life. Do you need help with pensions?", "A pension plan is a great way to secure your financial future after retirement. I can help you explore your options."]
+      },
+      {
+        "tag": "retirement_calculator",
+        "patterns": ["How much do I need to retire?", "Can you calculate my retirement needs?", "How much should I save for retirement?"],
+        "responses": ["The amount you need for retirement depends on your lifestyle and retirement goals. I can help you calculate how much you should save.", "Let's figure out how much you'll need to save for retirement. I'll need some details about your income and expenses to get started."]
+      },
+      {
+        "tag": "estate_planning",
+        "patterns": ["What is estate planning?", "How do I create an estate plan?", "Do I need a will?"],
+        "responses": ["Estate planning ensures your assets are distributed according to your wishes. It includes creating a will and naming beneficiaries. Would you like help with this?", "Estate planning helps protect your assets and loved ones. Do you need help setting up a will or trust?"]
+      },
+      {
+        "tag": "tax_planning",
+        "patterns": ["What is tax planning?", "How can I reduce my taxes?", "Can you help me with tax planning?"],
+        "responses": ["Tax planning involves strategies to reduce your tax liability legally. I can help you explore deductions, credits, and tax-efficient investments.", "Proper tax planning can save you money. Would you like help with tax strategies or finding deductions?"]
+      },
+      {
+        "tag": "college_savings",
+        "patterns": ["How do I save for college?", "What is a 529 plan?", "Can you help with college savings?"],
+        "responses": ["A 529 plan is a tax-advantaged account for college savings. It's a great way to plan for education expenses. Would you like more information on how it works?", "Saving for college can be made easier with a 529 plan. I can guide you on how to set it up and maximize your savings."]
+      },
+      {
+        "tag": "financial_aid",
+        "patterns": ["What is financial aid?", "Can I get financial aid for college?", "How does financial aid work?"],
+        "responses": ["Financial aid helps cover education costs through grants, loans, and scholarships. Would you like help applying for financial aid?", "You can apply for financial aid through FAFSA and other programs. Let me know if you'd like help with the process."]
+      },
+      {
+        "tag": "loan_consolidation",
+        "patterns": ["What is loan consolidation?", "Should I consolidate my loans?", "How does loan consolidation work?"],
+        "responses": ["Loan consolidation combines multiple loans into one, often with lower interest rates. It's a good option for simplifying payments. Would you like help deciding?", "Consolidating loans can make it easier to manage debt. Let's see if it's the right choice for your situation."]
+      },
+      {
+        "tag": "student_loans",
+        "patterns": ["How do student loans work?", "Should I take out a student loan?", "Can I get help with student loans?"],
+        "responses": ["Student loans help cover the cost of education, but they must be repaid. I can help you understand the different types of loans and repayment options.", "Taking out a student loan can be a big decision. Let me help you weigh the pros and cons based on your financial situation."]
+      },
+      {
+        "tag": "debt_management",
+        "patterns": ["How do I manage my debt?", "Help me with debt management", "What are the best ways to reduce debt?"],
+        "responses": ["Managing debt involves paying down high-interest debt first and creating a plan to stay on track. I can help you with strategies to reduce debt.", "Debt management is crucial to financial health. Let's explore options like debt consolidation or creating a repayment plan."]
+      },
+      {
+        "tag": "credit_cards",
+        "patterns": ["What is a good credit card?", "How do I choose a credit card?", "Can you help me find the best credit card?"],
+        "responses": ["Choosing a credit card depends on your spending habits. Would you like one with cash-back rewards, low interest rates, or travel perks?", "I can help you compare credit cards based on rewards, interest rates, and fees. What are you looking for in a credit card?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye", "Bye", "See you later", "Talk to you later", "Thanks, bye"],
+        "responses": ["Goodbye! Feel free to reach out anytime you need financial advice.", "Take care! I'm here whenever you need help with your finances."]
+      },
+      {
+        "tag": "default",
+        "patterns": ["I need help with money", "Can you give me financial advice?", "How to manage money?"],
+        "responses": ["I can help with budgeting, investments, insurance, and retirement planning. What would you like to focus on?", "Let's discuss your financial needs. I can assist with saving, investing, insurance, and planning for your future."]
+      }
+    ]
+  }
+  
